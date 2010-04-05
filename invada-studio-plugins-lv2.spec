@@ -16,7 +16,7 @@ License:        GPLv2
 Group:          Sound
 BuildRequires:  cairo-devel slv2-devel
 BuildRequires:  gtk+2-devel libglade2-devel
-Requires:       cairo glade gtk+2
+Requires:       cairo libglade2.0 gtk+2.0
 
 %description
 This package provides a kit of LV2 plugins for sound studio usage
