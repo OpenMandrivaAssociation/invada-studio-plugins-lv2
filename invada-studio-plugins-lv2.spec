@@ -1,6 +1,6 @@
 %define name            invada-studio-plugins-lv2
 %define version         1.2.0
-%define release         %mkrel 2
+%define release         %mkrel 3
 
 %define ladspadir       %{_libdir}/ladspa
 
