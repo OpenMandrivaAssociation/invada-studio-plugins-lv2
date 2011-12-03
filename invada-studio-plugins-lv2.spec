@@ -1,6 +1,6 @@
 %define name            invada-studio-plugins-lv2
 %define version         1.2.0
-%define release         %mkrel 3
+%define release         %mkrel 4
 
 %define ladspadir       %{_libdir}/ladspa
 
@@ -15,7 +15,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:        GPLv2
 Group:          Sound
 BuildRequires:  cairo-devel slv2-devel
-BuildRequires:  gtk+2-devel libglade2-devel
+BuildRequires:  gtk+2-devel libglade2.0-devel
 Requires:       cairo libglade2.0 gtk+2.0
 
 %description
