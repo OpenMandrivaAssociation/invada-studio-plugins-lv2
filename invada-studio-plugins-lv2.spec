@@ -1,6 +1,6 @@
 %define name            invada-studio-plugins-lv2
 %define version         1.2.0
-%define release         %mkrel 4
+%define release         %mkrel 5
 
 %define ladspadir       %{_libdir}/ladspa
 
@@ -16,7 +16,6 @@ License:        GPLv2
 Group:          Sound
 BuildRequires:  cairo-devel slv2-devel
 BuildRequires:  gtk+2-devel libglade2.0-devel
-Requires:       cairo libglade2.0 gtk+2.0
 
 %description
 This package provides a kit of LV2 plugins for sound studio usage
