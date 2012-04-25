@@ -15,6 +15,7 @@ URL:            http://www.invadarecords.com/Downloads.php?ID=00000264
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 License:        GPLv2
 Group:          Sound
+BuildRequires:  lv2-devel
 BuildRequires:  cairo-devel slv2-devel
 BuildRequires:  gtk+2-devel libglade2.0-devel
 
