@@ -48,3 +48,33 @@ rm -rf %{buildroot}
 %{_libdir}/lv2/invada.lv2/*
 
 
+
+
+%changelog
+* Wed Apr 25 2012 Frank Kober <emuse@mandriva.org> 1.2.0-6
++ Revision: 793407
+- rebuild adding patch from falktx fixing lv2 descriptors
+- rebuild adding patch from falktx fixing lv2 descriptors
+
+* Sun Dec 04 2011 Frank Kober <emuse@mandriva.org> 1.2.0-5
++ Revision: 737636
++ rebuild (emptylog)
+
+* Sat Dec 03 2011 Frank Kober <emuse@mandriva.org> 1.2.0-4
++ Revision: 737509
+- Fixed BR name change
+
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 1.2.0-3mdv2011.0
++ Revision: 612400
+- the mass rebuild of 2010.1 packages
+
+* Tue Apr 06 2010 Frank Kober <emuse@mandriva.org> 1.2.0-2mdv2010.1
++ Revision: 531917
+- bump release
+- fix requires
+
+* Tue Apr 06 2010 Frank Kober <emuse@mandriva.org> 1.2.0-1mdv2010.1
++ Revision: 531915
+- import invada-studio-plugins-lv2
+
+
