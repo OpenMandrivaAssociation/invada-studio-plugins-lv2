@@ -1,6 +1,6 @@
 %define name            invada-studio-plugins-lv2
 %define version         1.2.0
-%define release          7
+%define release          8
 %define debug_package          %{nil}
 
 %define ladspadir       %{_libdir}/ladspa
