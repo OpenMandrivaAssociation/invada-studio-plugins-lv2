@@ -12,7 +12,7 @@ Release:        %{release}
 
 Source:         http://launchpad.net/invada-studio/ladspa/0.3/+download/%{name}_%{version}-nopkg.tgz
 Patch0:         invada-studio-1.2.0-update-turtle.patch
-URL:            http://www.invadarecords.com/Downloads.php?ID=00000264
+URL:            https://www.invadarecords.com/Downloads.php?ID=00000264
 License:        GPLv2
 Group:          Sound
 BuildRequires:  lv2-devel
