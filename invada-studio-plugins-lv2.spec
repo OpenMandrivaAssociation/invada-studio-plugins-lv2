@@ -15,6 +15,7 @@ Patch0:         invada-studio-1.2.0-update-turtle.patch
 URL:            https://www.invadarecords.com/Downloads.php?ID=00000264
 License:        GPLv2
 Group:          Sound
+BuildRequires:	make
 BuildRequires:  lv2-devel
 BuildRequires:  cairo-devel slv2-devel
 BuildRequires:  pkgconfig(gtk+-2.0) libglade2.0-devel
